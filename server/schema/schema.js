@@ -13,6 +13,10 @@ const {
     GraphQLNonNull
 } = graphql;
 
+
+/**
+ * BookType
+ */
 const BookType = new GraphQLObjectType({
     name: 'Book',
     fields: ( ) => ({
@@ -28,6 +32,10 @@ const BookType = new GraphQLObjectType({
     })
 });
 
+
+/**
+ * AuthorType
+ */
 const AuthorType = new GraphQLObjectType({
     name: 'Author',
     fields: ( ) => ({
@@ -43,6 +51,10 @@ const AuthorType = new GraphQLObjectType({
     })
 });
 
+
+/**
+ * RootQuery
+ */
 const RootQuery = new GraphQLObjectType({
     name: 'RootQueryType',
     fields: {
@@ -75,6 +87,10 @@ const RootQuery = new GraphQLObjectType({
     }
 });
 
+
+/**
+ * Mutation
+ */
 const Mutation = new GraphQLObjectType({
     name: 'Mutation',
     fields: {
@@ -111,7 +127,12 @@ const Mutation = new GraphQLObjectType({
     }
 });
 
+
+/**
+ * Export
+ */
 module.exports = new GraphQLSchema({
     query: RootQuery,
     mutation: Mutation
 });
+

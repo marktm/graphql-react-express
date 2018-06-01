@@ -1,0 +1,21 @@
+{ 
+    "_id" : ObjectId("5b11d27a0eff5e1151e1f984"), 
+    "name" : "Marks Book", 
+    "genre" : "Non-fiction", 
+    "authorId" : "5b11cadeb11cf110804a366a", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5b11d30e0eff5e1151e1f985"), 
+    "name" : "Patrick's Book", 
+    "genre" : "Fiction", 
+    "authorId" : "5b11cadeb11cf110804a366a", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5b11d33f0eff5e1151e1f986"), 
+    "name" : "Terry's Book", 
+    "genre" : "Fiction", 
+    "authorId" : "5b11cadeb11cf110804a366c", 
+    "__v" : NumberInt(0)
+}
